@@ -1,37 +1,44 @@
 * {
 	font-family: Avenir Next, Arial, Verdana, sans-serif;
+	/* if its not h1, h2, h3, i, p, copyright, border, center, logo, or otherwise it'll default the font-style to this */
 }
 
 h1 {
 	font-family: Times, Times New Roman, Garamond, serif;
 	color: #CFC4CC;
 	font-size: 180%;
+	/* all <h1> elements will be that hex code, font family/style, and 180% larger in font size*/
 }
 
 h2 {
 	font-family: Times, Times New Roman, Garamond, serif;
 	color: #CFC4CC;
 	font-size: 155%;
+	/* all <h2> elements will be that hex code, font family/style, and 155% larger in font size*/
 }
 
-h4 {
+h3 {
 	font-family: Times, Times New Roman, Garamond, serif;
 	color: #CFC4CC;
 	font-size: 125%;
+	/* all <h3> elements will be that hex code, font family/style, and 125% larger in font size*/
 }
 
 i {
 	color: #e42d19;
+	/* all <i> elements will be that hex code*/
 }
 
 p {
 	color: #CFC4CC;
 	font-size: 120%;
+	/* all <p> elements will be that hex code and 120% larger in font size */
 }
 
 .copyRight {
 	font-size: 90%;
 	color: #420D07;
+	/* copyright font and color text */
 }
 
 body {
