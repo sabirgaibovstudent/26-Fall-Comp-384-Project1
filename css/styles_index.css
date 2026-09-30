@@ -1,0 +1,62 @@
+* {
+	font-family: Avenir Next, Arial, Verdana, sans-serif;
+}
+
+h1 {
+	font-family: Times, Times New Roman, Garamond, serif;
+	color: #CFC4CC;
+	font-size: 180%;
+}
+
+h2 {
+	font-family: Times, Times New Roman, Garamond, serif;
+	color: #CFC4CC;
+	font-size: 155%;
+}
+
+h4 {
+	font-family: Times, Times New Roman, Garamond, serif;
+	color: #CFC4CC;
+	font-size: 125%;
+}
+
+i {
+	color: #e42d19;
+}
+
+p {
+	color: #CFC4CC;
+	font-size: 120%;
+}
+
+.copyRight {
+	font-size: 90%;
+	color: #420D07;
+}
+
+body {
+		background-repeat:repeat-x;
+		background-size: 1000px 240px;
+		background-color: #C22515;
+		div.center 
+		{
+			text-align: center;
+		/* text that has class = "center" will have its text pulled to the middle */
+			
+		}
+		div.logo 
+		{
+			text-align: left;
+		/* logo at the bottom of each page is pulled to the left */
+		}		
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border: 10px solid #69150c;
+  object-fit: cover;
+}
+/* specifically for the banner, border is ten pixels of solid hexcode. */
+/* the object-fit 'covers' the background. height is 240 pixels tall, 100% of its width is showing and its displayed as a single block */
